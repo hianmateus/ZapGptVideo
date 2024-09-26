@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    transition: all 0.5s;
+}
+
+.Main{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+}
+
+.DivImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px white;
+    margin-bottom: 50px;
+}
+
+.Title{
+    width: 86%;
+    margin-bottom: 15px;
+}
+
+
+.VideoSec2{
+    width: 694px;
+    height: 390px;
+    border-radius: 20px;
+    border: solid 1px #2ab09c;
+    box-shadow: 0px 0px 20px 0px #2ab09c;
+}
+
+.Button{
+    font-size: 21px;
+    font-weight: 700;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    color: white;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-top: 45px;
+    background: linear-gradient(85deg, rgb(42 176 156) 0%, rgb(0 184 89) 72%);
+}
+.Button:hover{
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1180px) {
+    
+    .DivImage{
+        width: 84%;
+    }
+    
+    .VideoSec2{
+        width: 89%;
+        height: 200px;
+    }
+    
+    .Button{
+        width: 56%;
+        height: 45px;
+        margin-top: 73px;
+    }
+}
